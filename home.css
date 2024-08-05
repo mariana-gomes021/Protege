@@ -1,0 +1,66 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+@font-face {
+    font-family: 'Poppins-Black';
+    src: url(./assets/fonts/Poppins-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url(./assets/fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins-SemiBold';
+    src: url(./assets/fonts/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url(./assets/fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins-SemiBold';
+    src: url(./assets/fonts/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins-Light';
+    src: url(./assets/fonts/Poppins-Light.ttf);
+}
+
+
+@font-face {
+    font-family: 'Poppins-Thin';
+    src: url(./assets/fonts/Poppins-Thin.ttf);
+}
+
+
+.containerHeader {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logoInteiro {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.logoMenor {
+    width: 54.96px;
+    height: 54.91px;
+}
+
+.nav-bar a{
+    padding-right: 25px;
+}
