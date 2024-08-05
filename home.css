@@ -1,3 +1,5 @@
+/* RESET CSS */
+
 * {
     border: 0;
     margin: 0;
@@ -5,6 +7,10 @@
     box-sizing: border-box;
 
 }
+
+/* FIM RESET CSS */
+
+/* FONTES */
 
 @font-face {
     font-family: 'Poppins-Black';
@@ -14,6 +20,11 @@
 @font-face {
     font-family: 'Poppins-Regular';
     src: url(./assets/fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url(./assets/fonts/Poppins-Medium.ttf);
 }
 
 @font-face {
@@ -36,19 +47,22 @@
     src: url(./assets/fonts/Poppins-Light.ttf);
 }
 
-
 @font-face {
     font-family: 'Poppins-Thin';
     src: url(./assets/fonts/Poppins-Thin.ttf);
 }
 
+/* FIM FONTES */
+
+/* ESTILIZAÇÃO */
+
 header {
     background-image: url(./assets/fundo.png);
     background-size: cover;
-    height: 93vh;
+    height: 100vh;
+    
     background-position: center;
 }
-
 
 .containerHeader {
     display: flex;
@@ -62,7 +76,6 @@ header {
     display: flex;
     justify-content: space-evenly;
 }
-
 
 .logoMenor {
     width: 54.96px;
@@ -78,13 +91,11 @@ header {
     font-size: 18.34px;
 }
 
-
 .divisoria {
     width: 2px;
     height: 24px;
     background-color: #000;
 }
-
 
 .nomeEmpresa {
     margin-right: 65px;
@@ -99,7 +110,7 @@ header {
 .containerTop {
     padding-left: 150px;
     width: 431px;
-    padding-top: 4%;
+    padding-top: 9%;
 }
 
 .conteudo1 {
@@ -116,9 +127,13 @@ header {
 .tituloTop2 {
     font-family: 'Poppins-Bold';
     font-size: 34.5px;
+    color: #fff;
 }
 
 .textoTop {
     font-family: 'Poppins-Medium';
     color: #041D4C;
+    margin-top: 9.5%;
+    font-size: 14.83;
+    width: 500px;
 }
