@@ -42,11 +42,19 @@
     src: url(./assets/fonts/Poppins-Thin.ttf);
 }
 
+header {
+    background-image: url(./assets/fundo.png);
+    background-size: cover;
+    height: 93vh;
+    background-position: center;
+}
+
 
 .containerHeader {
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
+    padding-left: 150px;
+    padding-top: 2%;
 }
 
 .logoInteiro {
@@ -59,8 +67,58 @@
 .logoMenor {
     width: 54.96px;
     height: 54.91px;
+    margin-right: 17px;
 }
 
-.nav-bar a{
+.nav-bar a {
     padding-right: 25px;
+    text-decoration: none;
+    font-family: 'Poppins-Regular';
+    color: #000;
+    font-size: 18.34px;
+}
+
+
+.divisoria {
+    width: 2px;
+    height: 24px;
+    background-color: #000;
+}
+
+
+.nomeEmpresa {
+    margin-right: 65px;
+    font-family: 'Poppins-Bold';
+    font-size: 22.55px;
+}
+
+.nav-bar {
+    padding-left: 65px;
+}
+
+.containerTop {
+    padding-left: 150px;
+    width: 431px;
+    padding-top: 4%;
+}
+
+.conteudo1 {
+    display: grid;
+    align-items: center;
+    align-content: center;
+}
+
+.tituloTop1 {
+    font-family: 'Poppins-Bold';
+    font-size: 34.5px;
+}
+
+.tituloTop2 {
+    font-family: 'Poppins-Bold';
+    font-size: 34.5px;
+}
+
+.textoTop {
+    font-family: 'Poppins-Medium';
+    color: #041D4C;
 }
