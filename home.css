@@ -52,23 +52,31 @@
     src: url(./assets/fonts/Poppins-Thin.ttf);
 }
 
+@font-face {
+    font-family: 'Poppins-ExtraBold';
+    src: url(./assets/fonts/Poppins-ExtraBold.ttf);
+}
+
 /* FIM FONTES */
 
 /* ESTILIZAÇÃO */
 
 header {
-    background-image: url(./assets/fundo.png);
-    background-size: cover;
-    height: 100vh;
-    
-    background-position: center;
+    display: flex;
+    justify-content: space-between;
 }
 
 .containerHeader {
+    display: grid;
+    height: 579px;
+
+}
+
+.divReal {
+    padding-left: 163px;
     display: flex;
     align-items: center;
-    padding-left: 150px;
-    padding-top: 2%;
+    height: 140px;
 }
 
 .logoInteiro {
@@ -95,6 +103,7 @@ header {
     width: 2px;
     height: 24px;
     background-color: #000;
+    margin-right: 65px;
 }
 
 .nomeEmpresa {
@@ -103,37 +112,184 @@ header {
     font-size: 22.55px;
 }
 
-.nav-bar {
-    padding-left: 65px;
-}
-
-.containerTop {
-    padding-left: 150px;
-    width: 431px;
-    padding-top: 9%;
-}
-
-.conteudo1 {
-    display: grid;
-    align-items: center;
-    align-content: center;
-}
-
 .tituloTop1 {
+    padding-left: 163px;
     font-family: 'Poppins-Bold';
     font-size: 34.5px;
+    width: 468px;
+}
+
+.fundo2 {
+    background-image: url(./assets/flecha.png);
+    background-repeat: no-repeat;
+    background-size: 742px 50px;
+}
+
+.circulo {
+    z-index: -999;
+    position: absolute;
+    width: 300px;
+    left: 672px;
+    bottom: 253px;
 }
 
 .tituloTop2 {
+    padding-left: 163px;
     font-family: 'Poppins-Bold';
     font-size: 34.5px;
     color: #fff;
 }
 
+
 .textoTop {
+    padding-left: 163px;
     font-family: 'Poppins-Medium';
     color: #041D4C;
-    margin-top: 9.5%;
-    font-size: 14.83;
-    width: 500px;
+    margin-top: 3.5%;
+    font-size: 14.83px;
+    width: 587px;
+}
+
+.containerTop {
+    display: flex;
+}
+
+.formiga1 {
+    width: 408px;
+    height: 700px;
+}
+
+.barra1,
+.barra2,
+.barra3,
+.barra4 {
+    width: 83px;
+    height: 700px;
+}
+
+.barra1 {
+    background-color: rgba(10, 26, 55, 1);
+}
+
+.barra2 {
+    background-color: rgba(155, 169, 197, 1);
+}
+
+.barra3 {
+    background-color: rgba(188, 200, 221, 0.41);
+}
+
+
+main {
+    background-color: rgba(10, 26, 55, 1);
+}
+
+.containerMain {
+    padding-left: 163px;
+}
+
+
+.tituloArea2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tituloApenas {
+    display: flex;
+    align-items: center;
+}
+.aspas {
+    font-size: 115.76px;
+    font-family: 'Poppins-Bold';
+    color: #fff;
+
+}
+
+.titulo1 {
+    font-family: 'Poppins-Bold';
+    color: #fff;
+    font-size: 39.5px;
+    width: 150px;
+    line-height: 39px;
+}
+
+.barrasTitulo{
+    display: grid;
+    justify-items: end;
+
+}
+
+.barraHorizontal1{
+    background-color: #fff;
+    height: 60px;
+    width: 885px;
+}
+
+.barraHorizontal2{
+    height: 60px;
+    background-color: rgba(34, 58, 104, 1);
+    width: 764px;
+}
+
+.servicosArea{
+    padding-right:163px ;
+    padding-bottom: 10%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+
+.blocoServicos{
+    width: 249px;
+}
+
+.subtitulo{
+    font-family: 'Poppins-Light';
+    font-size: 18.77px;
+    color: #fff;
+}
+
+.tituloBloco{
+    font-family: 'Poppins-Bold';
+    font-size: 36.31px;
+    color: rgba(188, 200, 221, 1);
+    line-height: 38px;
+}
+
+.textoBloco{
+    color: white;
+    font-family: 'Poppins-Regular';
+    font-size: 15.61px;
+}
+
+.linha{
+    background-color: white;
+    width: 239px;
+    height: 4px;
+    border-radius: 15px;
+    margin: 17px 0 17px 0;
+
+}
+
+
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #fff;
+    padding: 3px 19px;
+    border-radius: 42px;
+    margin: 14px 0px 0px 0px;
+
+}
+
+.seta{
+    width: 35px;
+}
+
+.botao p{
+    font-family: 'Poppins-ExtraBold';
+    font-size: 16.61px;
+    color: #fff;
 }
