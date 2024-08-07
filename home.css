@@ -48,6 +48,11 @@
 }
 
 @font-face {
+    font-family: 'Poppins-ExtraLight';
+    src: url(./assets/fonts/Poppins-ExtraLight.ttf);
+}
+
+@font-face {
     font-family: 'Poppins-Thin';
     src: url(./assets/fonts/Poppins-Thin.ttf);
 }
@@ -146,7 +151,7 @@ header {
     font-family: 'Poppins-Medium';
     color: #041D4C;
     margin-top: 3.5%;
-    font-size: 14.83px;
+    font-size: 15.61px;
     width: 587px;
 }
 
@@ -189,7 +194,7 @@ main {
 }
 
 
-.tituloArea2{
+.tituloArea2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -199,6 +204,7 @@ main {
     display: flex;
     align-items: center;
 }
+
 .aspas {
     font-size: 115.76px;
     font-family: 'Poppins-Bold';
@@ -214,56 +220,65 @@ main {
     line-height: 39px;
 }
 
-.barrasTitulo{
+.barrasTitulo {
     display: grid;
     justify-items: end;
-
 }
 
-.barraHorizontal1{
+.barraHorizontal1 {
     background-color: #fff;
     height: 60px;
     width: 885px;
 }
 
-.barraHorizontal2{
+.barraHorizontal2 {
     height: 60px;
     background-color: rgba(34, 58, 104, 1);
     width: 764px;
 }
 
-.servicosArea{
-    padding-right:163px ;
+.servicosArea {
+    padding-right: 163px;
     padding-bottom: 10%;
     display: flex;
     justify-content: space-around;
     padding-top: 5%;
 }
 
-.blocoServicos{
+.blocoServicos {
     width: 249px;
+    cursor: pointer;
+    transition: all 0.5s cubic-bezier(0.4, 0.0, 0.2, 1);
 }
 
-.subtitulo{
+.blocoServicos:hover {
+    border: 1px solid #fff;
+    padding: 33px 25px;
+    width: 310px;
+    border-radius: 7px;
+    transition: all 0.5s cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.subtitulo {
     font-family: 'Poppins-Light';
     font-size: 18.77px;
     color: #fff;
 }
 
-.tituloBloco{
+.tituloBloco {
     font-family: 'Poppins-Bold';
     font-size: 36.31px;
     color: rgba(188, 200, 221, 1);
     line-height: 38px;
 }
 
-.textoBloco{
+.textoBloco {
     color: white;
     font-family: 'Poppins-Regular';
     font-size: 15.61px;
 }
 
-.linha{
+.linha {
     background-color: white;
     width: 239px;
     height: 4px;
@@ -272,8 +287,64 @@ main {
 
 }
 
+.sobreNos {
+    background-color: #fff;
+    width: 1000px;
+    display: flex;
+    height: 400px;
+    border-radius: 30px;
+}
 
-.botao{
+.textos{
+    display: grid;
+    flex-direction: column;
+    align-content: center;
+    padding-left: 8%;
+}
+
+.branco{
+    display: grid;
+    justify-content: center;
+    padding-bottom: 9%;
+}
+
+.inovacao{
+    font-family: 'Poppins-Bold';
+    color: #041D4C;
+    font-size: 45px;
+}
+
+.seta2{
+    margin-top: -25px;
+    display: flex;
+    align-items: center;
+}
+
+.continua{
+    font-family: 'Poppins-ExtraLight';
+    color: #041D4C;
+}
+
+.logoSeta{
+    width: 165px;
+    margin-left: 18px;
+}
+
+.sobre{
+    font-family: 'Poppins-Medium';
+    color: #041D4C;
+    font-size: 15.5px;
+    text-align: justify;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+
+.insetos{
+    margin-top: -0.5px;
+    width: 530px;
+}
+
+.botao {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -281,15 +352,41 @@ main {
     padding: 3px 19px;
     border-radius: 42px;
     margin: 14px 0px 0px 0px;
-
 }
 
-.seta{
+.seta {
     width: 35px;
 }
 
-.botao p{
+.botao p {
     font-family: 'Poppins-ExtraBold';
     font-size: 16.61px;
+    color: #fff;
+}
+
+footer{
+    background-color: #576B90;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pagamento{
+    font-family: 'Poppins-SemiBold';
+    color: #fff;
+}
+
+.textoPag{
+    font-family: 'Poppins-Regular';
+    width: 250px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.cartoes{
+    width: 190px;
+}
+
+.links{
+    font-family: 'Poppins-SemiBold';
     color: #fff;
 }
