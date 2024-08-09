@@ -295,42 +295,42 @@ main {
     border-radius: 30px;
 }
 
-.textos{
+.textos {
     display: grid;
     flex-direction: column;
     align-content: center;
     padding-left: 8%;
 }
 
-.branco{
+.branco {
     display: grid;
     justify-content: center;
     padding-bottom: 9%;
 }
 
-.inovacao{
+.inovacao {
     font-family: 'Poppins-Bold';
     color: #041D4C;
     font-size: 45px;
 }
 
-.seta2{
+.seta2 {
     margin-top: -25px;
     display: flex;
     align-items: center;
 }
 
-.continua{
+.continua {
     font-family: 'Poppins-ExtraLight';
     color: #041D4C;
 }
 
-.logoSeta{
+.logoSeta {
     width: 165px;
     margin-left: 18px;
 }
 
-.sobre{
+.sobre {
     font-family: 'Poppins-Medium';
     color: #041D4C;
     font-size: 15.5px;
@@ -339,7 +339,7 @@ main {
     margin-top: 20px;
 }
 
-.insetos{
+.insetos {
     margin-top: -0.5px;
     width: 530px;
 }
@@ -364,29 +364,86 @@ main {
     color: #fff;
 }
 
-footer{
+footer {
     background-color: #576B90;
+    
+}
+
+.cartao {
+    width: 43px;
+    height: 30px;
+}
+
+.pagamento {
+    font-family: 'Poppins-SemiBold';
+    color: #fff;
+    margin-left: 2%;
+}
+
+.pag {
+    display: grid;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8%;
+}
+
+.footerTudo{
     display: flex;
     justify-content: space-around;
+    padding-top: 4%;
+    padding-left: 13%;
+    padding-right: 13%;
 }
 
-.pagamento{
-    font-family: 'Poppins-SemiBold';
-    color: #fff;
-}
-
-.textoPag{
+.textoPag {
     font-family: 'Poppins-Regular';
-    width: 250px;
-    font-size: 14px;
+    width: 300px;
+    font-size: 16px;
     color: #fff;
+    margin-bottom: 8%;
 }
 
-.cartoes{
-    width: 190px;
+.cartoes {
+    width: 282px;
+    margin-bottom: 27%;
 }
 
-.links{
+.links {
     font-family: 'Poppins-SemiBold';
     color: #fff;
+}
+
+.linkzinhos{
+    text-decoration: none;
+    font-family: 'Poppins-Regular';
+    color: #fff;
+    font-size: 15.5px;
+}
+
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rede{
+    margin-top: 12%;
+    font-family: 'Poppins-Bold';
+    color: #fff;
+}
+
+.social1{
+    width: 48px;
+}
+
+.social{
+    width: 50px;
+}
+
+.setinha{
+    width: 8px;
+}
+
+.mapa{
+    width: 320px;
 }
