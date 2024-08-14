@@ -64,6 +64,12 @@
 
 /* FIM FONTES */
 
+
+#contatoA{
+    font-family: 'Poppins-Bold';
+    color:#223A68;
+}
+
 /* CHAT BOT BOTÃO */
 
 .centralizar{
@@ -137,6 +143,12 @@ header {
     font-family: 'Poppins-Regular';
     color: #000;
     font-size: 18.34px;
+}
+
+
+.nav-bar a:hover{
+    font-family: 'Poppins-Medium';
+    color:#223A68;
 }
 
 .divisoria {

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Protege Sanitização - Contato</title>
     <link rel="stylesheet" href="contato.css">
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
 </head>
 
 <body>
@@ -19,8 +20,8 @@
                 <div class="divisoria"></div>
                 <div class="nav-bar">
                     <a href="index.html">Home</a>
-                    <a href="servicos.html">Serviços</a>
-                    <a href="contato.html">Contato</a>
+                    <a href="#">Serviços</a>
+                    <a id="contatoA" href="contato.html">Contato</a>
                 </div>
             </div>
             <div class="conteudo1">
@@ -67,19 +68,47 @@
                     <input type="tel" name="telefone" placeholder="Telefone" required>
                     <select id="opcoes" name="servico" required>
                         <option value="">Serviço desejado</option>
-                        <option value="servico1">Serviço 1</option>
-                        <option value="servico2">Serviço 2</option>
-                        <option value="servico3">Serviço 3</option>
+                        <option value="servico1">Serviço de limpeza</option>
+                        <option value="servico2">Serviço de manutenção</option>
+                        <option value="servico3">Controle de pragas</option>
                     </select>
                     <textarea id="msg" name="mensagem" placeholder="Mensagem" required></textarea>
-                    <button type="submit">Enviar mensagem -></button>
+                    <div class="botao" onclick="submitForm()">
+                        <p>Enviar Mensagem</p>
+                        <img class="seta" src="./assets/seta.png" alt="">
+                    </div>
                 </form>
-                
-            </div>
-            <div class="conteudoForm">
+
+                <div id="messageModal" class="modal">
+                    <div class="modal-content">
+                        <p>Mensagem enviada com sucesso!</p>
+                        <button onclick="closeModal()">Fechar</button>
+                    </div>
+                </div>
 
             </div>
+            <div class="conteudoForm">
+                <h1 class="formTexto1">Dados Importantes</h1>
+                <div class="location">
+                    <img class="iconLocal" src="./assets/local.png" alt="">
+                    <p>Rua Hissopo, 120B - c. 2 Cidade Líder São Paulo - SP CEP 03585-070</p>
+                </div>
+                <div class="telefone">
+                    <img class="iconTel" src="./assets/zap.png" alt="">
+                    <p>(11) 96629-0823 / (11) 95136-5272</p>
+                </div>
+                <a class="aEmail" href="mailto:contato@dedetizadoraprotege.com">
+
+                    <div class="email">
+
+                        <img class="iconEmail" src="./assets/email.png" alt="">
+                        <p>contato@dedetizadoraprotege.com</p>
+
+                    </div>
+                </a>
+            </div>
         </div>
+
     </main>
     <footer>
         <div class="footerTudo">
@@ -133,6 +162,23 @@
         </div>
 
     </footer>
+
+    <script>
+        function submitForm() {
+            event.preventDefault(); // Evita o envio imediato do formulário
+
+            // Exibe o modal
+            document.getElementById("messageModal").style.display = "flex";
+        }
+
+        function closeModal() {
+            // Oculta o modal
+            document.getElementById("messageModal").style.display = "none";
+
+            // Envia o formulário
+            document.getElementById('inputs').submit();
+        }
+    </script>
 </body>
 
 </html>
