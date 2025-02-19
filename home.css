@@ -10,6 +10,12 @@
 
 /* FIM RESET CSS */
 
+/*SCROOL SUAVE*/
+html {
+  scroll-behavior: smooth;
+}
+
+
 /* FONTES */
 
 @font-face {
